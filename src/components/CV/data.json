@@ -1,0 +1,198 @@
+{
+  "header": {
+    "name": "DURGADAS KAMATH",
+    "position": "SOFTWARE ARCHITECT",
+    "img": {
+      "src": "/photo.jpg",
+      "alt": "Durgadas Kamath"
+    },
+    "location": "Goa, India",
+    "contacts": [
+      {
+        "type": "linkedin",
+        "link": "https://linkedin.com/in/kamathdurgadas",
+        "linkName": "kamathdurgadas"
+      },
+      {
+        "type": "github",
+        "link": "https://github.com/imdurgadas",
+        "linkName": "imdurgadas"
+      }
+    ]
+  },
+  "pitchLine": "My passions are — Web Development, Cloud and DevOps Adoption, Modernization , Software Design and Architecture, Mentorship , Tech Speaker",
+  "topTech": [
+    "nestjs",
+    "nodejs",
+    "serverless",
+    "springboot",
+    "kubernetes",
+    "openshift",
+    "vault",
+    "react",
+    "travis",
+    "jenkins",
+    "aws",
+    "docker",
+    "ibmcloud"
+  ],
+  "tech": {
+    "react": {
+      "name": "React",
+      "logo": "react.svg",
+      "website": "https://github.com/facebook/react",
+      "displayInTopList": true
+    },
+    "nestjs": {
+      "name": "NestJS",
+      "logo": "nestjs.svg",
+      "website": "https://nestjs.com/",
+      "displayInTopList": true
+    },
+    "nodejs": {
+      "name": "NodeJS",
+      "logo": "nodejs.svg",
+      "website": "https://nodejs.org/",
+      "displayInTopList": true
+    },
+    "serverless": {
+      "name": "serverless",
+      "logo": "serverless.svg",
+      "website": "https://serverless.com/",
+      "displayInTopList": true
+    },
+    "kubernetes": {
+      "name": "Kubernetes",
+      "logo": "kubernetes.svg",
+      "website": "https://kubernetes.io",
+      "displayInTopList": true
+    },
+    "openshift": {
+      "name": "OpenShift",
+      "logo": "openshift.svg",
+      "website": "https://www.redhat.com/en/technologies/cloud-computing/openshift",
+      "displayInTopList": true
+    },
+    "springboot": {
+      "name": "Springboot",
+      "logo": "springboot.svg",
+      "website": "https://www.spring.io",
+      "displayInTopList": true
+    },
+    "vault": {
+      "name": "Vault",
+      "logo": "vault.svg",
+      "website": "https://vaultproject.io/",
+      "displayInTopList": true
+    },
+    "aws": {
+      "name": "AWS",
+      "logo": "aws.svg",
+      "website": "https://aws.amazon.com/",
+      "displayInTopList": true
+    },
+    "jenkins": {
+      "name": "Jenkins",
+      "logo": "jenkins.svg",
+      "website": "https://jenkins.io/",
+      "displayInTopList": true
+    },
+    "ibmcloud": {
+      "name": "IBM Cloud",
+      "logo": "ibmcloud.svg",
+      "website": "https://cloud.ibm.com",
+      "displayInTopList": true
+    },
+    "docker": {
+      "name": "Docker",
+      "logo": "docker.svg",
+      "website": "https://docker.com/",
+      "displayInTopList": true
+    },
+    "travis": {
+      "name": "Travis",
+      "logo": "travis.svg",
+      "website": "https://travis-ci.org/",
+      "displayInTopList": true
+    }
+  },
+  "skills": {
+    "soft": {
+      "featured": [
+        "Focus on business needs",
+        "Team building / Leadership",
+        "Coaching",
+        "Decision making",
+        "Communication",
+        "Integrity"
+      ],
+      "other": [
+        "Risk Management",
+        "Critical Thinking",
+        "Problem Solving",
+        "Task Management",
+        "Business Process Improvement"
+      ]
+    },
+    "hard": {
+      "featured": [
+        "NestJS",
+        "Springboot",
+        "Docker",
+        "Kubernetes",
+        "Vault",
+        "OpenShift"
+      ],
+      "other": [
+        "React",
+        "NodeJS",
+        "AWS",
+        "GIT",
+        "JIRA",
+        "Socket.io",
+        "Scripting"
+      ]
+    }
+  },
+  "experience": [
+    {
+      "company": {
+        "name": "Persistent Systems",
+        "logoHeight": 40,
+        "logo": "persistent.png",
+        "period": "July 2010 - now"
+      },
+      "projects": [
+        {
+          "name": "Cloud Practice",
+          "logoHeight": 40,
+          "logo": "",
+          "role": "Architect - Cloud Solutions",
+          "description": "Responsible for delivering architecture guidelines for web and digital deliveries, designing new and innovative solutions to challenges in company and provide support and results in the field of Cloud and Application Modernization",
+          "stack": {
+            "me": [
+              "NestJS",
+              "Kubernetes",
+              "OpenShift",
+              "Travis",
+              "Springboot",
+              "IBM Cloud",
+              "Docker"
+            ],
+            "all": [
+              "ReactJS",
+              "AWS"
+            ]
+          },
+          "achievements": [
+            "Leading a transformation of current on-premise services to cloud including the infrastructure design, selection of Platform-as-a-Service offerings, providing integration to Software-as-a-Service offerings",
+            "Starting the DevOps culture including Continuous Integration & Delivery, bringing the automated infrastructure tools to existing teams and setting guidelines and standards to promote the new software conventions",
+            "Providing the framework for collaboration of multiple in-house and development teams across locations.",
+            "Mentoring and Leadership Building"
+          ]
+        }
+      ]
+    }
+  ],
+  "footer": "durgadas.in © 2021"
+}
