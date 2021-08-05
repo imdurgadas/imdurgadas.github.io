@@ -1,10 +1,12 @@
 module.exports = {
   url: 'https://durgadas.in',
   pathPrefix: '/',
+  image: '/photo.jpg',
   title: 'Durgadas Kamath | Developer| Architect | Explorer',
   keywords:
     'technology, tech world, tech, development, javascript, Durgadas Kamath, architecture, architect, devops, optimization, kubernetes, serverless, cloud, aws, ibmcloud, monitoring, logging , explorer, blogging , blog, techie , tricks, practices, nestjs, security',
-  subtitle: 'Developer. Architect. Optimizer. Explorer.',
+  subtitle:
+    'Technology Enthusiast who loves to explore, develop , architect and optmize solutions. This blog is to share knolwedge gathering over years of experience in field of IT',
   copyright: '© 2021 | Durgadas Kamath, Goa India',
   disqusShortname: 'durgadas',
   postsPerPage: 20,

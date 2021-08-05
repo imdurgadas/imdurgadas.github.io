@@ -6,11 +6,16 @@ import Page from '../components/Page'
 import { useSiteMetadata, useCategoriesList } from '../hooks'
 
 const CategoriesListTemplate = () => {
-  const { title, subtitle, keywords } = useSiteMetadata()
+  const { title, subtitle, keywords, image } = useSiteMetadata()
   const categories = useCategoriesList()
 
   return (
-    <Layout title={`Categories - ${title}`} description={subtitle} keywords={keywords}>
+    <Layout
+      title={`Categories - ${title}`}
+      description={subtitle}
+      keywords={keywords}
+      image={image}
+    >
       <Sidebar />
       <Page title="Categories">
         <ul>
