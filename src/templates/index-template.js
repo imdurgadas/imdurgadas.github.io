@@ -11,7 +11,7 @@ import { useSiteMetadata } from '../hooks'
 import '../assets/css/init.css'
 
 const IndexTemplate = ({ data, pageContext }) => {
-  const { title: siteTitle, subtitle: siteSubtitle, keywords, image } = useSiteMetadata()
+  const { title: siteTitle, subtitle: siteSubtitle, keywords } = useSiteMetadata()
 
   const {
     currentPage,
@@ -27,12 +27,7 @@ const IndexTemplate = ({ data, pageContext }) => {
     currentPage > 0 ? `Posts - Page ${currentPage} - ${siteTitle}` : siteTitle
 
   return (
-    <Layout
-      title={pageTitle}
-      description={siteSubtitle}
-      keywords={keywords}
-      image={image}
-    >
+    <Layout title={pageTitle} description={siteSubtitle} keywords={keywords}>
       <Sidebar />
       <Page>
         <FeaturedProducts />

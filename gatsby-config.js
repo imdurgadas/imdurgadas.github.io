@@ -10,8 +10,7 @@ module.exports = {
     copyright: siteConfig.copyright,
     disqusShortname: siteConfig.disqusShortname,
     menu: siteConfig.menu,
-    author: siteConfig.author,
-    image: siteConfig.image
+    author: siteConfig.author
   },
   plugins: [
     {

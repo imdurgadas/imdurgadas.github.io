@@ -2,7 +2,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import { Layout as AntLayout } from 'antd'
 
-const Layout = ({ children, title, description, keywords, article, image }) => (
+const Layout = ({ children, title, description, keywords, article }) => (
   <AntLayout className="bg-transparent min-h-screen">
     <Helmet>
       <html lang="en" prefix="og: http://ogp.me/ns#" />
@@ -10,7 +10,6 @@ const Layout = ({ children, title, description, keywords, article, image }) => (
       <meta name="keywords" content={keywords} />
       <meta name="description" content={description} />
       <meta property="og:site_name" content={title} />
-      {image && <meta property="og:image" content={image} />}
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:title" content={title} />
       {article && <meta property="og:type" content="article" />}

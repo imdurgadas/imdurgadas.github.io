@@ -9,8 +9,7 @@ const PostTemplate = ({ data, pageContext }) => {
   const { title: siteTitle, subtitle: siteSubtitle, keywords } = useSiteMetadata()
   const {
     title: postTitle,
-    description: postDescription,
-    image
+    description: postDescription
   } = data.markdownRemark.frontmatter
   const metaDescription = postDescription !== null ? postDescription : siteSubtitle
 
@@ -19,7 +18,6 @@ const PostTemplate = ({ data, pageContext }) => {
       title={`${postTitle} - ${siteTitle}`}
       description={metaDescription}
       keywords={keywords}
-      image={image}
       article={{
         title: postTitle,
         description: metaDescription
