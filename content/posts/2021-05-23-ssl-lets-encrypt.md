@@ -3,7 +3,7 @@ template: post
 title: SSL using Let's Encrypt
 slug: /ssl-lets-encrypt
 draft: false
-priority: 5
+priority: 0
 date: 2021-05-23T12:00:02.039Z
 description: Non-Secure to Secure using Lets Encrypt with automated renewal
 category: security
