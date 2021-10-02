@@ -6,10 +6,10 @@ draft: false
 priority: 0
 date: 2021-05-23T12:00:02.039Z
 description: Non-Secure to Secure using Lets Encrypt with automated renewal
-category: security
+category: tech
 tags:
   - letsencrypt
-  - secured
+  - security
 ---
 
 ![logo](https://www.linuxmaker.com/fileadmin/user_upload/Images/letsencrypt.png)

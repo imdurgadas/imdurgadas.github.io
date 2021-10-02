@@ -6,7 +6,7 @@ draft: false
 priority: 0
 date: 2021-05-16T12:00:02.039Z
 description: Modern Opensource API Gateway offering lot of features, security with no compromise on Performance
-category: technical
+category: tech
 tags:
   - api
   - gateway

@@ -3,14 +3,14 @@ template: post
 title: NestJS - My new favorite framework
 slug: /nestjs-framework
 draft: false
-priority: 5
-date: 2021-08-22T12:00:02.039Z
+priority: 0
+date: 2021-08-22T14:00:02.039Z
 description: Why NestJS is my goto framework these days.
-category: coding
+category: tech
 tags:
   - nestjs
   - javascript
-  - framework
+  - api
 ---
 
 ![logo](https://d33wubrfki0l68.cloudfront.net/e937e774cbbe23635999615ad5d7732decad182a/26072/logo-small.ede75a6b.svg)
