@@ -16,7 +16,7 @@ tags:
 
 ![logo](https://cdn.icon-icons.com/icons2/2107/PNG/256/file_type_nginx_icon_130305.png)
 
-Over the past few years, I have started using Nginx extensively and had few hiccups understanding various components, rewrites and many more. Considering this, I plan to have series of short tutorials on Nginx where I introduce you to most of the components and how to use effectively to get your application up and running with greater speed and efficiency.
+Over the past few years, I have started using Nginx extensively and had few hiccups understanding various components, rewrites and many more. Over the next few weeks, I will be publishing short tutorials on Nginx where we will cover the important aspects and how to use them effectively to get your application up and running with greater speed and efficiency.
 
 To begin , let's understand what Nginx is and how is it different from Apache Server.
 
@@ -31,7 +31,7 @@ Most people consider Nginx as a Web Server but thats not true. However, it's an 
 
 ## Difference between Nginx and Apache
 
-By default, Apache is configured in what's called a `pre fork` mode which means it spawns a set number of processes, each of which can serve a single request at a time, regardless of whether that request is for a script or an image or something else.
+By default, Apache is configured in what's called a **pre fork** mode which means it spawns a set number of processes, each of which can serve a single request at a time, regardless of whether that request is for a script or an image or something else.
 
 Nginx, on the other hand, deals with requests asynchronously, meaning that a single process can serve multiple requests concurrently with that number, basically just depending on the system resources available to the Nginx process. That said, because of this asynchronous design, Nginx, unlike Apache, can't embed server side programming languages into its own processes, meaning that all requests for dynamic content has to be dealt with by a completely separate process like FPM and then reverse proxy back to the client via Nginx.
 
