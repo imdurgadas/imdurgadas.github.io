@@ -1,7 +1,7 @@
 ---
 template: post
 title: Nginx - Overview
-slug: /Nginx-overview
+slug: /nginx-overview
 draft: false
 priority: 5
 date: 2021-10-02T12:00:02.039Z
