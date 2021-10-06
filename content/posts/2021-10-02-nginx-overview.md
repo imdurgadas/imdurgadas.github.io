@@ -14,7 +14,7 @@ tags:
   - performance
 ---
 
-![logo](https://cdn.icon-icons.com/icons2/2107/PNG/256/file_type_nginx_icon_130305.png)
+![logo](https://avatars.githubusercontent.com/u/8629072?s=200&v=4)
 
 Over the past few years, I have started using Nginx extensively and had few hiccups understanding various components, rewrites and many more. Over the next few weeks, I will be publishing short tutorials on Nginx where we will cover the important aspects and how to use them effectively to get your application up and running with greater speed and efficiency.
 
