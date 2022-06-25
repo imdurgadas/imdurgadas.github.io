@@ -79,7 +79,7 @@
     "@hot-loader/react-dom": "^16.13.0",
     "autoprefixer": "9.7.6",
     "babel-core": "7.0.0-bridge.0",
-    "babel-plugin-import": "^1.13.0",
+    "babel-plugin-import": "1.13.5",
     "babel-preset-gatsby": "0.4.2",
     "concurrently": "5.2.0",
     "eslint": "7.0.0",
