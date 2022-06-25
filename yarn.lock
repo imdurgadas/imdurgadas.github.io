@@ -1154,7 +1154,7 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@hot-loader/react-dom@^16.13.0":
+"@hot-loader/react-dom@16.13.0":
   version "16.13.0"
   resolved "https://registry.yarnpkg.com/@hot-loader/react-dom/-/react-dom-16.13.0.tgz#de245b42358110baf80aaf47a0592153d4047997"
   integrity sha512-lJZrmkucz2MrQJTQtJobx5MICXcfQvKihszqv655p557HPi0hMOWxrNpiHv3DWD8ugNWjtWcVWqRnFvwsHq1mQ==
@@ -2807,7 +2807,7 @@ babel-plugin-extract-import-names@^1.6.1:
   dependencies:
     "@babel/helper-plugin-utils" "7.8.3"
 
-babel-plugin-import@^1.13.0:
+babel-plugin-import@1.13.0:
   version "1.13.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-import/-/babel-plugin-import-1.13.0.tgz#c532fd533df9db53b47d4d4db3676090fc5c07a5"
   integrity sha512-bHU8m0SrY89ub2hBBuYjbennOeH0YUYkVpH6jxKFk0uD8rhN+0jNHIPtXnac+Vn7N/hgkLGGDcIoYK7je3Hhew==
@@ -12726,7 +12726,7 @@ prepend-http@^2.0.0:
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-2.0.0.tgz#e92434bfa5ea8c19f41cdfd401d741a3c819d897"
   integrity sha1-6SQ0v6XqjBn0HN/UAddBo8gZ2Jc=
 
-prettier@^2.0.5:
+prettier@2.0.5, prettier@^2.0.5:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.0.5.tgz#d6d56282455243f2f92cc1716692c08aa31522d4"
   integrity sha512-7PtVymN48hGcO4fGjybyBSIWDsLU4H4XlvOHfq91pz9kkGlonzwTfYkaIEwiRg/dAJF9YlbsduBAgtYLi+8cFg==
@@ -15086,6 +15086,17 @@ slate-soft-break@^0.9.0:
   resolved "https://registry.yarnpkg.com/slate-soft-break/-/slate-soft-break-0.9.0.tgz#7fb2a22eb8600717ee299f7866469cb9c705a53d"
   integrity sha512-iTy2bl/G+tphN10YQBOPDRxDqgM46ZH1UUz0ublmL6PLtwJ3jJK1n08w37YxnY/ge4aW31UN386KV6qvFx6Hsw==
 
+slate@0.58.1:
+  version "0.58.1"
+  resolved "https://registry.yarnpkg.com/slate/-/slate-0.58.1.tgz#3fdd9cb58d1b840b0361bbd01c32f3a0d31b5da2"
+  integrity sha512-2Vj1jfzHQ/X4t23iKaWoEw09iuIo1oYIsl2tZjZTEl61VNwFEIZkjzI5yuyGS4x0QnUMbNtMoOCeJQx8HxHvdw==
+  dependencies:
+    "@types/esrever" "^0.2.0"
+    esrever "^0.2.0"
+    immer "^5.0.0"
+    is-plain-object "^3.0.0"
+    tiny-warning "^1.0.3"
+
 slate@^0.47.0:
   version "0.47.9"
   resolved "https://registry.yarnpkg.com/slate/-/slate-0.47.9.tgz#090597dd790e79718f782994907d34a903739443"
@@ -15099,17 +15110,6 @@ slate@^0.47.0:
     tiny-invariant "^1.0.1"
     tiny-warning "^0.0.3"
     type-of "^2.0.1"
-
-slate@^0.58.1:
-  version "0.58.1"
-  resolved "https://registry.yarnpkg.com/slate/-/slate-0.58.1.tgz#3fdd9cb58d1b840b0361bbd01c32f3a0d31b5da2"
-  integrity sha512-2Vj1jfzHQ/X4t23iKaWoEw09iuIo1oYIsl2tZjZTEl61VNwFEIZkjzI5yuyGS4x0QnUMbNtMoOCeJQx8HxHvdw==
-  dependencies:
-    "@types/esrever" "^0.2.0"
-    esrever "^0.2.0"
-    immer "^5.0.0"
-    is-plain-object "^3.0.0"
-    tiny-warning "^1.0.3"
 
 slice-ansi@^2.1.0:
   version "2.1.0"
@@ -15953,7 +15953,7 @@ table@^5.2.3:
     slice-ansi "^2.1.0"
     string-width "^3.0.0"
 
-tailwindcss@^1.4.6:
+tailwindcss@1.4.6:
   version "1.4.6"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-1.4.6.tgz#17b37166ccda08d7e7f9ca995ea48ce1e0089700"
   integrity sha512-qV0qInUq1FWih39Bc5CWECdgObSzRrbjGD4ke4kAPSIq6WXrPhv0wwOcUWJgJ66ltT9j+XnSRYikG8WNRU/fTQ==
