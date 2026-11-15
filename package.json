@@ -45,7 +45,7 @@
     "gatsby-plugin-feed": "^2.5.1",
     "gatsby-plugin-google-gtag": "^2.1.1",
     "gatsby-plugin-manifest": "^2.4.3",
-    "gatsby-plugin-netlify": "^2.3.2",
+    "gatsby-plugin-netlify": "^5.0.0",
     "gatsby-plugin-netlify-cms": "^4.3.2",
     "gatsby-plugin-optimize-svgs": "^1.0.4",
     "gatsby-plugin-postcss": "^2.3.1",
